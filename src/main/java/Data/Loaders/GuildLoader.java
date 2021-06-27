@@ -39,6 +39,7 @@ public class GuildLoader extends AbstractLoader {
         BasicDBObject updateQuery = new BasicDBObject("$set", new BasicDBObject("key", key));
         data.setKey(key);
 
+        // TODO: Check whether update result actually updated anything
         DatabaseHandler.getServerCollection().updateOne(searchQuery, updateQuery);
         return Mono.empty();
     }
