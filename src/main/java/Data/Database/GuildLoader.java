@@ -1,6 +1,5 @@
-package Data.Loaders;
+package Data.Database;
 
-import Data.DatabaseHandler;
 import Data.GuildData;
 import com.mongodb.BasicDBObject;
 import com.mongodb.client.MongoCursor;

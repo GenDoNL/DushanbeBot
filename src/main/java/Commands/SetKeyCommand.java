@@ -1,7 +1,7 @@
 package Commands;
 
 import Data.GuildData;
-import Data.Loaders.GuildLoader;
+import Data.Database.GuildLoader;
 import Util.Exceptions.CommandException;
 import Util.MessageSender;
 import discord4j.core.event.domain.message.MessageCreateEvent;

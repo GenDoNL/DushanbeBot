@@ -1,4 +1,4 @@
-package Data.Loaders;
+package Data.Database;
 
 import Data.DBData;
 import com.fasterxml.jackson.core.JsonProcessingException;

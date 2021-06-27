@@ -1,5 +1,6 @@
-package Data;
+package Data.Database;
 
+import Data.GuildData;
 import com.mongodb.MongoClientSettings;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;

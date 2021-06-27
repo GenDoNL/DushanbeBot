@@ -2,7 +2,7 @@ package Util;
 
 import Commands.Command;
 import Data.GuildData;
-import Data.Loaders.GuildLoader;
+import Data.Database.GuildLoader;
 import Util.Exceptions.DushanbeException;
 import discord4j.common.util.Snowflake;
 import discord4j.core.event.domain.message.MessageCreateEvent;
