@@ -1,0 +1,8 @@
+//    Mono<GuildData> guildData = Mono.empty();
+//    if (cursor.hasNext()) {
+//        guildData = Mono.fromCallable(() -> {
+//        JsonParser jsonParser = new JsonFactory().createParser(cursor.next().toJson());
+//        ObjectMapper mapper = new ObjectMapper();
+//        return mapper.readValue(jsonParser, GuildData.class);
+//      }).subscribeOn(Schedulers.elastic());
+//    }
